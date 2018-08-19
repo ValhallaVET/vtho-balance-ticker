@@ -1,0 +1,20 @@
+.wrapper {
+  background: linear-gradient(-35deg,#002fca,#1875ff);
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  padding: 9px;
+}
+
+.link {
+  cursor: pointer;
+}
+
+.link ~ .link {
+  margin-left: 10px;
+}
+
+.link:hover {
+  border-bottom: 2px solid #6B87A4;
+}
